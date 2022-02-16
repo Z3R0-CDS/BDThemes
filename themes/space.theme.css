@@ -1,10 +1,10 @@
 /**
- * @name Speicherstadt 4k by ZeroCodes#1252
- * @description Look at the german Speicherstadt in Hamburg. A clean and simple theme.
+ * @name Space 8k by ZeroCodes#1252
+ * @description Look at the space. A clean and simple theme.
  * @author ZeroCodes#1252
- * @version 2.2
+ * @version 2.0
  * @authorId 792442147617243217
- * @updateUrl https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/Speicherstadt.theme.css
+ * @updateUrl https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/space.theme.css
  */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
@@ -22,7 +22,7 @@
 	--font:							Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	--textshadow:					transparent;
 
-	--accentcolor:					255, 143, 0;
+	--accentcolor:					0, 47, 255;
 	--accentcolor2:					var(--accentcolor);
 	--mentioncolor:					var(--accentcolor);
 	--linkcolor:					var(--accentcolor);
@@ -38,7 +38,7 @@
 	--textdarker: 					125,125,125;
 	--textdarkest: 					90,90,90;
 
-	--background:					url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpixelz.cc%2Fwp-content%2Fuploads%2F2018%2F12%2Fspeicherstadt-hamburg-germany-uhd-4k-wallpaper.jpg);
+	--background:					url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2Fb%2Ff%2Fe%2F63955.jpg);
 	--backgroundposition:			center;
 	--backgroundsize:				cover;
 	--backgroundblur:				unset;

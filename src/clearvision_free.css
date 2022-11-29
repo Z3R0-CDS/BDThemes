@@ -1177,6 +1177,111 @@ textarea,
     box-shadow: 0 -2px 10px rgba(0, 0, 0, calc(var(--background-shading) * 0.3))
 }
 
+.container-YkUktl {
+    position: relative;
+    margin-bottom: 10px
+}
+
+.container-YkUktl:before,
+.container-YkUktl:after {
+    bottom: -8px;
+    position: absolute;
+    color: rgba(255, 255, 255, .3);
+    font-size: 11px;
+    font-weight: 700;
+    transition: all .5s ease-in-out
+}
+
+.container-YkUktl:before {
+    content: "";
+    right: 50%;
+    text-align: right;
+    transform: translateX(50%)
+}
+
+.container-YkUktl:after {
+    content: "v6.3.0";
+    right: 50%;
+    text-align: right;
+    opacity: 0;
+    transform: translateX(50%) rotateX(90deg)
+}
+
+.container-YkUktl:hover:before {
+    margin-right: 1px;
+    transform: none
+}
+
+.container-YkUktl:hover:after {
+    margin-left: 1px;
+    opacity: 1;
+    transform: none
+}
+
+.container-YkUktl .withTagAsButton-OsgQ9L,
+.container-YkUktl .withTagless-10ooWt {
+    min-width: calc(100% - 100px);
+    width: auto
+}
+
+.container-YkUktl .withTagAsButton-OsgQ9L:hover,
+.container-YkUktl .withTagless-10ooWt:hover {
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff
+}
+
+.container-YkUktl .avatar-1EWyVD {
+    width: 32px !important;
+    height: 32px !important;
+    transition: all .15s ease-in-out
+}
+
+.container-YkUktl .avatar-1EWyVD:after {
+    content: "Status";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 5px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all .15s ease-in-out;
+    pointer-events: none
+}
+
+.container-YkUktl .avatar-1EWyVD foreignObject {
+    transition: all .15s ease-in-out
+}
+
+.container-YkUktl .avatar-1EWyVD:hover {
+    width: 40px !important;
+    height: 40px !important;
+    opacity: 1
+}
+
+.container-YkUktl .avatar-1EWyVD:hover:after {
+    font-size: 10px;
+    line-height: 40px;
+    opacity: 1
+}
+
+.container-YkUktl .avatar-1EWyVD:hover foreignObject {
+    opacity: .5
+}
+
+.container-YkUktl .title-338goq {
+    color: #fff
+}
+
+.container-YkUktl .subtext-2HDqJ7 {
+    color: rgba(255, 255, 255, .3)
+}
+
 .container-1zzFcN > .flex-3BkGQD {
     background: rgba(0, 0, 0, .3);
     border-radius: 15px

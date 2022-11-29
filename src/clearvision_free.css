@@ -1,11 +1,15 @@
-﻿:root {
+﻿/*
+    Version: 1.2
+ */
+
+:root {
     --main-color: #2780e6;
     --hover-color: #1e63b3;
     --success-color: #43b581;
     --danger-color: #982929;
     --channel-unread: var(--main-color);
-    --channel-color: rgba(255, 255, 255, 0.3);
-    --muted-color: rgba(255, 255, 255, 0.1);
+    --channel-color: rgba(229, 226, 226, 0.66);
+    --muted-color: rgba(255, 255, 255, 0.3);
     --channel-text-selected: #fff;
     --url-color: var(--main-color);
     --online-color: #43b581;
@@ -596,15 +600,9 @@ textarea,
     order: 1
 }
 
-.typeWindows-2-g3UY > .wordmark-2u86JB:before {
-    content: "GaySex";
-    color: rgba(255, 255, 255, .7);
-    font-size: 14px;
-    text-shadow: 0 0 3px #000
-}
 
 .typeWindows-2-g3UY > .wordmark-2u86JB:after {
-    content: "v6.3.0";
+    content: "v1.1";
     color: rgba(255, 255, 255, .3);
     font-family: var(--code-font);
     font-size: 10px
@@ -983,6 +981,7 @@ textarea,
     margin-right: 3px;
     color: rgba(255, 255, 255, .3)
 }
+
 
 .moreUsers-_v6T-L {
     padding: 0 4px;
@@ -4563,897 +4562,897 @@ code {
 }
 
 .hljs[class ~ ="1c"i]:before {
-    content: "1C:Enterprise"
-}
+                         content: "1C:Enterprise"
+                     }
 
 .hljs[class ~ =abnf i]:before {
-    content: "ABNF"
-}
+                          content: "ABNF"
+                      }
 
 .hljs[class ~ =accesslog i]:before {
-    content: "Access Log"
-}
+                               content: "Access Log"
+                           }
 
 .hljs[class ~ =as i]:before,
-.hljs[class ~ =actionscript i]:before {
-    content: "ActionScript"
-}
+                    .hljs[class ~ =actionscript i]:before {
+                                                      content: "ActionScript"
+                                                  }
 
 .hljs[class ~ =ada i]:before {
-    content: "Ada"
-}
+                         content: "Ada"
+                     }
 
 .hljs[class ~ =apacheconf i]:before,
-.hljs[class ~ =apache i]:before {
-    content: "Apache"
-}
+                            .hljs[class ~ =apache i]:before {
+                                                        content: "Apache"
+                                                    }
 
 .hljs[class ~ =osascript i]:before,
-.hljs[class ~ =applescript i]:before {
-    content: "Applescript"
-}
+                           .hljs[class ~ =applescript i]:before {
+                                                            content: "Applescript"
+                                                        }
 
 .hljs[class ~ =arduino i]:before {
-    content: "Arduino"
-}
+                             content: "Arduino"
+                         }
 
 .hljs[class ~ =arm i]:before,
-.hljs[class ~ =armasm i]:before {
-    content: "ARM Assembly"
-}
+                     .hljs[class ~ =armasm i]:before {
+                                                 content: "ARM Assembly"
+                                             }
 
 .hljs[class ~ =adoc i]:before,
-.hljs[class ~ =asciidoc i]:before {
-    content: "AsciiDoc"
-}
+                      .hljs[class ~ =asciidoc i]:before {
+                                                    content: "AsciiDoc"
+                                                }
 
 .hljs[class ~ =aspectj i]:before {
-    content: "AspectJ"
-}
+                             content: "AspectJ"
+                         }
 
 .hljs[class ~ =atom i]:before {
-    content: "Atom Feed (XML)"
-}
+                          content: "Atom Feed (XML)"
+                      }
 
 .hljs[class ~ =autohotkey i]:before {
-    content: "AutoHotkey"
-}
+                                content: "AutoHotkey"
+                            }
 
 .hljs[class ~ =autoit i]:before {
-    content: "AutoIt"
-}
+                            content: "AutoIt"
+                        }
 
 .hljs[class ~ =avrasm i]:before {
-    content: "AVR Assembler"
-}
+                            content: "AVR Assembler"
+                        }
 
 .hljs[class ~ =awk i]:before {
-    content: "awk"
-}
+                         content: "awk"
+                     }
 
 .hljs[class ~ =axapta i]:before {
-    content: "Axapta"
-}
+                            content: "Axapta"
+                        }
 
 .hljs[class ~ =zsh i]:before,
-.hljs[class ~ =sh i]:before,
-.hljs[class ~ =bash i]:before {
-    content: "Bash"
-}
+                     .hljs[class ~ =sh i]:before,
+                                         .hljs[class ~ =bash i]:before {
+                                                                   content: "Bash"
+                                                               }
 
 .hljs[class ~ =basic i]:before {
-    content: "Basic"
-}
+                           content: "Basic"
+                       }
 
 .hljs[class ~ =cmd i]:before,
-.hljs[class ~ =bat i]:before,
-.hljs[class ~ =dos i]:before {
-    content: "Batch"
-}
+                     .hljs[class ~ =bat i]:before,
+                                          .hljs[class ~ =dos i]:before {
+                                                                   content: "Batch"
+                                                               }
 
 .hljs[class ~ =bf i]:before,
-.hljs[class ~ =bnf i]:before {
-    content: "BNF"
-}
+                    .hljs[class ~ =bnf i]:before {
+                                             content: "BNF"
+                                         }
 
 .hljs[class ~ =brainfuck i]:before {
-    content: "Brainfuck"
-}
+                               content: "Brainfuck"
+                           }
 
 .hljs[class ~ =h i]:before,
-.hljs[class ~ =c i]:before {
-    content: "C/C++"
-}
+                   .hljs[class ~ =c i]:before {
+                                          content: "C/C++"
+                                      }
 
 .hljs[class ~ =hpp i]:before,
-.hljs[class ~ =cpp i]:before,
-.hljs[class ~ =cc i]:before {
-    content: "C++"
-}
+                     .hljs[class ~ =cpp i]:before,
+                                          .hljs[class ~ =cc i]:before {
+                                                                  content: "C++"
+                                                              }
 
 .hljs[class ~ =csharp i]:before,
-.hljs[class ~ =cs i]:before {
-    content: "C#"
-}
+                        .hljs[class ~ =cs i]:before {
+                                                content: "C#"
+                                            }
 
 .hljs[class ~ =cal i]:before {
-    content: "C/AL"
-}
+                         content: "C/AL"
+                     }
 
 .hljs[class ~ =capnp i]:before,
-.hljs[class ~ =capnproto i]:before {
-    content: "Cap'n Proto"
-}
+                       .hljs[class ~ =capnproto i]:before {
+                                                      content: "Cap'n Proto"
+                                                  }
 
 .hljs[class ~ =ceylon i]:before {
-    content: "Ceylon"
-}
+                            content: "Ceylon"
+                        }
 
 .hljs[class ~ =dcl i]:before,
-.hljs[class ~ =icl i]:before,
-.hljs[class ~ =clean i]:before {
-    content: "Clean"
-}
+                     .hljs[class ~ =icl i]:before,
+                                          .hljs[class ~ =clean i]:before {
+                                                                     content: "Clean"
+                                                                 }
 
 .hljs[class ~ =clj i]:before,
-.hljs[class ~ =clojure i]:before {
-    content: "Clojure"
-}
+                     .hljs[class ~ =clojure i]:before {
+                                                  content: "Clojure"
+                                              }
 
 .hljs[class ~ =clojure-repl i]:before {
-    content: "Clojure REPL"
-}
+                                  content: "Clojure REPL"
+                              }
 
 .hljs[class ~ =cmake i]:before {
-    content: "CMake"
-}
+                           content: "CMake"
+                       }
 
 .hljs[class ~ =iced i]:before,
-.hljs[class ~ =cson i]:before,
-.hljs[class ~ =coffee i]:before,
-.hljs[class ~ =coffeescript i]:before {
-    content: "CoffeeScript"
-}
+                      .hljs[class ~ =cson i]:before,
+                                            .hljs[class ~ =coffee i]:before,
+                                                                    .hljs[class ~ =coffeescript i]:before {
+                                                                                                      content: "CoffeeScript"
+                                                                                                  }
 
 .hljs[class ~ =coq i]:before {
-    content: "Coq"
-}
+                         content: "Coq"
+                     }
 
 .hljs[class ~ =cls i]:before,
-.hljs[class ~ =cos i]:before {
-    content: "Caché Object Script"
-}
+                     .hljs[class ~ =cos i]:before {
+                                              content: "Caché Object Script"
+                                          }
 
 .hljs[class ~ =podspec i]:before {
-    content: "CocoaPod"
-}
+                             content: "CocoaPod"
+                         }
 
 .hljs[class ~ =pcmk i]:before,
-.hljs[class ~ =crm i]:before,
-.hljs[class ~ =crmsh i]:before {
-    content: "crmsh"
-}
+                      .hljs[class ~ =crm i]:before,
+                                           .hljs[class ~ =crmsh i]:before {
+                                                                      content: "crmsh"
+                                                                  }
 
 .hljs[class ~ =cr i]:before,
-.hljs[class ~ =crystal i]:before {
-    content: "Crystal"
-}
+                    .hljs[class ~ =crystal i]:before {
+                                                 content: "Crystal"
+                                             }
 
 .hljs[class ~ =csp i]:before {
-    content: "CSP"
-}
+                         content: "CSP"
+                     }
 
 .hljs[class ~ =css i]:before {
-    content: "CSS"
-}
+                         content: "CSS"
+                     }
 
 .hljs[class ~ =d i]:before {
-    content: "D"
-}
+                       content: "D"
+                   }
 
 .hljs[class ~ =dart i]:before {
-    content: "Dart"
-}
+                          content: "Dart"
+                      }
 
 .hljs[class ~ =dpr i]:before,
-.hljs[class ~ =dfm i]:before,
-.hljs[class ~ =delphi i]:before {
-    content: "Delphi (Object Pascal)"
-}
+                     .hljs[class ~ =dfm i]:before,
+                                          .hljs[class ~ =delphi i]:before {
+                                                                      content: "Delphi (Object Pascal)"
+                                                                  }
 
 .hljs[class ~ =patch i]:before,
-.hljs[class ~ =diff i]:before {
-    content: "Diff"
-}
+                       .hljs[class ~ =diff i]:before {
+                                                 content: "Diff"
+                                             }
 
 .hljs[class ~ =django i]:before {
-    content: "Django"
-}
+                            content: "Django"
+                        }
 
 .hljs[class ~ =zone i]:before,
-.hljs[class ~ =bind i]:before,
-.hljs[class ~ =dns i]:before {
-    content: "DNS Zone File"
-}
+                      .hljs[class ~ =bind i]:before,
+                                            .hljs[class ~ =dns i]:before {
+                                                                     content: "DNS Zone File"
+                                                                 }
 
 .hljs[class ~ =docker i]:before,
-.hljs[class ~ =dockerfile i]:before {
-    content: "Dockerfile"
-}
+                        .hljs[class ~ =dockerfile i]:before {
+                                                        content: "Dockerfile"
+                                                    }
 
 .hljs[class ~ =dsconfig i]:before {
-    content: "dsconfig"
-}
+                              content: "dsconfig"
+                          }
 
 .hljs[class ~ =dts i]:before {
-    content: "Device Tree"
-}
+                         content: "Device Tree"
+                     }
 
 .hljs[class ~ =dst i]:before,
-.hljs[class ~ =dust i]:before {
-    content: "Dust"
-}
+                     .hljs[class ~ =dust i]:before {
+                                               content: "Dust"
+                                           }
 
 .hljs[class ~ =ebnf i]:before {
-    content: "EBNF"
-}
+                          content: "EBNF"
+                      }
 
 .hljs[class ~ =elixir i]:before {
-    content: "Elixir"
-}
+                            content: "Elixir"
+                        }
 
 .hljs[class ~ =elm i]:before {
-    content: "Elm"
-}
+                         content: "Elm"
+                     }
 
 .hljs[class ~ =erb i]:before {
-    content: "eRuby"
-}
+                         content: "eRuby"
+                     }
 
 .hljs[class ~ =erl i]:before,
-.hljs[class ~ =erlang i]:before {
-    content: "Erlang"
-}
+                     .hljs[class ~ =erlang i]:before {
+                                                 content: "Erlang"
+                                             }
 
 .hljs[class ~ =erlang-repl i]:before {
-    content: "Erlang REPL"
-}
+                                 content: "Erlang REPL"
+                             }
 
 .hljs[class ~ =xlsx i]:before,
-.hljs[class ~ =xls i]:before,
-.hljs[class ~ =excel i]:before {
-    content: "Excel"
-}
+                      .hljs[class ~ =xls i]:before,
+                                           .hljs[class ~ =excel i]:before {
+                                                                      content: "Excel"
+                                                                  }
 
 .hljs[class ~ =fsharp i]:before,
-.hljs[class ~ =fs i]:before {
-    content: "F#"
-}
+                        .hljs[class ~ =fs i]:before {
+                                                content: "F#"
+                                            }
 
 .hljs[class ~ =fix i]:before {
-    content: "Fix"
-}
+                         content: "Fix"
+                     }
 
 .hljs[class ~ =flix i]:before {
-    content: "Flix"
-}
+                          content: "Flix"
+                      }
 
 .hljs[class ~ =f95 i]:before,
-.hljs[class ~ =f90 i]:before,
-.hljs[class ~ =fortran i]:before {
-    content: "Fortran"
-}
+                     .hljs[class ~ =f90 i]:before,
+                                          .hljs[class ~ =fortran i]:before {
+                                                                       content: "Fortran"
+                                                                   }
 
 .hljs[class ~ =gms i]:before,
-.hljs[class ~ =gams i]:before {
-    content: "GAMS"
-}
+                     .hljs[class ~ =gams i]:before {
+                                               content: "GAMS"
+                                           }
 
 .hljs[class ~ =gss i]:before,
-.hljs[class ~ =gauss i]:before {
-    content: "GAUSS"
-}
+                     .hljs[class ~ =gauss i]:before {
+                                                content: "GAUSS"
+                                            }
 
 .hljs[class ~ =nc i]:before,
-.hljs[class ~ =gcode i]:before {
-    content: "G-code"
-}
+                    .hljs[class ~ =gcode i]:before {
+                                               content: "G-code"
+                                           }
 
 .hljs[class ~ =feature i]:before,
-.hljs[class ~ =gherkin i]:before {
-    content: "Gherkin"
-}
+                         .hljs[class ~ =gherkin i]:before {
+                                                      content: "Gherkin"
+                                                  }
 
 .hljs[class ~ =glsl i]:before {
-    content: "GLSL"
-}
+                          content: "GLSL"
+                      }
 
 .hljs[class ~ =golang i]:before,
-.hljs[class ~ =go i]:before {
-    content: "Go"
-}
+                        .hljs[class ~ =go i]:before {
+                                                content: "Go"
+                                            }
 
 .hljs[class ~ =golo i]:before {
-    content: "Golo"
-}
+                          content: "Golo"
+                      }
 
 .hljs[class ~ =gradle i]:before {
-    content: "Gradle"
-}
+                            content: "Gradle"
+                        }
 
 .hljs[class ~ =groovy i]:before {
-    content: "Groovy"
-}
+                            content: "Groovy"
+                        }
 
 .hljs[class ~ =haml i]:before {
-    content: "Haml"
-}
+                          content: "Haml"
+                      }
 
 .hljs[class ~ =hbs i]:before,
-.hljs[class ~ =handlebars i]:before {
-    content: "Handlebars"
-}
+                     .hljs[class ~ =handlebars i]:before {
+                                                     content: "Handlebars"
+                                                 }
 
 .hljs[class ~ =hs i]:before,
-.hljs[class ~ =haskell i]:before {
-    content: "Haskell"
-}
+                    .hljs[class ~ =haskell i]:before {
+                                                 content: "Haskell"
+                                             }
 
 .hljs[class ~ =hx i]:before,
-.hljs[class ~ =haxe i]:before {
-    content: "Haxe"
-}
+                    .hljs[class ~ =haxe i]:before {
+                                              content: "Haxe"
+                                          }
 
 .hljs[class ~ =hsp i]:before {
-    content: "HSP"
-}
+                         content: "HSP"
+                     }
 
 .hljs[class ~ =html i]:before {
-    content: "HTML"
-}
+                          content: "HTML"
+                      }
 
 .hljs[class ~ =htmlbars i]:before {
-    content: "HTMLBars"
-}
+                              content: "HTMLBars"
+                          }
 
 .hljs[class ~ =http i]:before {
-    content: "HTTP"
-}
+                          content: "HTTP"
+                      }
 
 .hljs[class ~ =https i]:before {
-    content: "HTTPS"
-}
+                           content: "HTTPS"
+                       }
 
 .hljs[class ~ =hylang i]:before,
-.hljs[class ~ =hy i]:before {
-    content: "Hy"
-}
+                        .hljs[class ~ =hy i]:before {
+                                                content: "Hy"
+                                            }
 
 .hljs[class ~ =i7 i]:before,
-.hljs[class ~ =inform7 i]:before {
-    content: "Inform7"
-}
+                    .hljs[class ~ =inform7 i]:before {
+                                                 content: "Inform7"
+                                             }
 
 .hljs[class ~ =ini i]:before {
-    content: "INI"
-}
+                         content: "INI"
+                     }
 
 .hljs[class ~ =irb i]:before {
-    content: "IRB"
-}
+                         content: "IRB"
+                     }
 
 .hljs[class ~ =irpf90 i]:before {
-    content: "IRPF90"
-}
+                            content: "IRPF90"
+                        }
 
 .hljs[class ~ =jsp i]:before,
-.hljs[class ~ =java i]:before {
-    content: "Java"
-}
+                     .hljs[class ~ =java i]:before {
+                                               content: "Java"
+                                           }
 
 .hljs[class ~ =jsx i]:before,
-.hljs[class ~ =js i]:before,
-.hljs[class ~ =javascript i]:before {
-    content: "JavaScript/JSX"
-}
+                     .hljs[class ~ =js i]:before,
+                                         .hljs[class ~ =javascript i]:before {
+                                                                         content: "JavaScript/JSX"
+                                                                     }
 
 .hljs[class ~ =xjb i]:before {
-    content: "JAXB (XML)"
-}
+                         content: "JAXB (XML)"
+                     }
 
 .hljs[class ~ =wildfly-cli i]:before,
-.hljs[class ~ =jboss-cli i]:before {
-    content: "JBoss CLI"
-}
+                             .hljs[class ~ =jboss-cli i]:before {
+                                                            content: "JBoss CLI"
+                                                        }
 
 .hljs[class ~ =jinja i]:before {
-    content: "Jinja"
-}
+                           content: "Jinja"
+                       }
 
 .hljs[class ~ =json i]:before {
-    content: "JSON"
-}
+                          content: "JSON"
+                      }
 
 .hljs[class ~ =julia i]:before {
-    content: "Julia"
-}
+                           content: "Julia"
+                       }
 
 .hljs[class ~ =julia-repl i]:before {
-    content: "Julia REPL"
-}
+                                content: "Julia REPL"
+                            }
 
 .hljs[class ~ =kotlin i]:before {
-    content: "Kotlin"
-}
+                            content: "Kotlin"
+                        }
 
 .hljs[class ~ =ls i]:before,
-.hljs[class ~ =lassoscript i]:before,
-.hljs[class ~ =lasso i]:before {
-    content: "Lasso"
-}
+                    .hljs[class ~ =lassoscript i]:before,
+                                                 .hljs[class ~ =lasso i]:before {
+                                                                            content: "Lasso"
+                                                                        }
 
 .hljs[class ~ =ldif i]:before {
-    content: "LDIF"
-}
+                          content: "LDIF"
+                      }
 
 .hljs[class ~ =leaf i]:before {
-    content: "Leaf"
-}
+                          content: "Leaf"
+                      }
 
 .hljs[class ~ =less i]:before {
-    content: "Less"
-}
+                          content: "Less"
+                      }
 
 .hljs[class ~ =lisp i]:before {
-    content: "Lisp"
-}
+                          content: "Lisp"
+                      }
 
 .hljs[class ~ =livecodeserver i]:before {
-    content: "LiveCode Server"
-}
+                                    content: "LiveCode Server"
+                                }
 
 .hljs[class ~ =ls i]:before,
-.hljs[class ~ =livescript i]:before {
-    content: "LiveScript"
-}
+                    .hljs[class ~ =livescript i]:before {
+                                                    content: "LiveScript"
+                                                }
 
 .hljs[class ~ =llvm i]:before {
-    content: "LLVM IR"
-}
+                          content: "LLVM IR"
+                      }
 
 .hljs[class ~ =lsl i]:before {
-    content: "LSL"
-}
+                         content: "LSL"
+                     }
 
 .hljs[class ~ =lua i]:before {
-    content: "Lua"
-}
+                         content: "Lua"
+                     }
 
 .hljs[class ~ =mak i]:before,
-.hljs[class ~ =mk i]:before,
-.hljs[class ~ =makefile i]:before {
-    content: "Makefile"
-}
+                     .hljs[class ~ =mk i]:before,
+                                         .hljs[class ~ =makefile i]:before {
+                                                                       content: "Makefile"
+                                                                   }
 
 .hljs[class ~ =mkdown i]:before,
-.hljs[class ~ =mkd i]:before,
-.hljs[class ~ =md i]:before,
-.hljs[class ~ =markdown i]:before {
-    content: "Markdown"
-}
+                        .hljs[class ~ =mkd i]:before,
+                                             .hljs[class ~ =md i]:before,
+                                                                 .hljs[class ~ =markdown i]:before {
+                                                                                               content: "Markdown"
+                                                                                           }
 
 .hljs[class ~ =mma i]:before,
-.hljs[class ~ =mathematica i]:before {
-    content: "Mathematica"
-}
+                     .hljs[class ~ =mathematica i]:before {
+                                                      content: "Mathematica"
+                                                  }
 
 .hljs[class ~ =matlab i]:before {
-    content: "MatLab"
-}
+                            content: "MatLab"
+                        }
 
 .hljs[class ~ =maxima i]:before {
-    content: "Maxima"
-}
+                            content: "Maxima"
+                        }
 
 .hljs[class ~ =mel i]:before {
-    content: "MEL"
-}
+                         content: "MEL"
+                     }
 
 .hljs[class ~ =moo i]:before,
-.hljs[class ~ =m i]:before,
-.hljs[class ~ =mercury i]:before {
-    content: "Mercury"
-}
+                     .hljs[class ~ =m i]:before,
+                                        .hljs[class ~ =mercury i]:before {
+                                                                     content: "Mercury"
+                                                                 }
 
 .hljs[class ~ =mips i]:before,
-.hljs[class ~ =mipsasm i]:before {
-    content: "MIPS Assembly"
-}
+                      .hljs[class ~ =mipsasm i]:before {
+                                                   content: "MIPS Assembly"
+                                               }
 
 .hljs[class ~ =mikrotik i]:before,
-.hljs[class ~ =routeros i]:before {
-    content: "Mikrotik RouterOS"
-}
+                          .hljs[class ~ =routeros i]:before {
+                                                        content: "Mikrotik RouterOS"
+                                                    }
 
 .hljs[class ~ =mizar i]:before {
-    content: "Mizar"
-}
+                           content: "Mizar"
+                       }
 
 .hljs[class ~ =mojolicious i]:before {
-    content: "Mojolicious"
-}
+                                 content: "Mojolicious"
+                             }
 
 .hljs[class ~ =monkey i]:before {
-    content: "Monkey"
-}
+                            content: "Monkey"
+                        }
 
 .hljs[class ~ =moon i]:before,
-.hljs[class ~ =moonscript i]:before {
-    content: "MoonScript"
-}
+                      .hljs[class ~ =moonscript i]:before {
+                                                      content: "MoonScript"
+                                                  }
 
 .hljs[class ~ =n1ql i]:before {
-    content: "N1QL"
-}
+                          content: "N1QL"
+                      }
 
 .hljs[class ~ =nginxconf i]:before,
-.hljs[class ~ =nginx i]:before {
-    content: "Nginx"
-}
+                           .hljs[class ~ =nginx i]:before {
+                                                      content: "Nginx"
+                                                  }
 
 .hljs[class ~ =nim i]:before,
-.hljs[class ~ =nimrod i]:before {
-    content: "Nimrod"
-}
+                     .hljs[class ~ =nimrod i]:before {
+                                                 content: "Nimrod"
+                                             }
 
 .hljs[class ~ =nixos i]:before,
-.hljs[class ~ =nix i]:before {
-    content: "Nix"
-}
+                       .hljs[class ~ =nix i]:before {
+                                                content: "Nix"
+                                            }
 
 .hljs[class ~ =nsis i]:before {
-    content: "NSIS"
-}
+                          content: "NSIS"
+                      }
 
 .hljs[class ~ =mm i]:before,
-.hljs[class ~ =obj-c i]:before,
-.hljs[class ~ =objc i]:before,
-.hljs[class ~ =objectivec i]:before {
-    content: "Objective-C"
-}
+                    .hljs[class ~ =obj-c i]:before,
+                                           .hljs[class ~ =objc i]:before,
+                                                                 .hljs[class ~ =objectivec i]:before {
+                                                                                                 content: "Objective-C"
+                                                                                             }
 
 .hljs[class ~ =ml i]:before,
-.hljs[class ~ =ocaml i]:before {
-    content: "OCaml"
-}
+                    .hljs[class ~ =ocaml i]:before {
+                                               content: "OCaml"
+                                           }
 
 .hljs[class ~ =scad i]:before,
-.hljs[class ~ =openscad i]:before {
-    content: "OpenSCAD"
-}
+                      .hljs[class ~ =openscad i]:before {
+                                                    content: "OpenSCAD"
+                                                }
 
 .hljs[class ~ =ruleslanguage i]:before {
-    content: "Oracle Rules Language"
-}
+                                   content: "Oracle Rules Language"
+                               }
 
 .hljs[class ~ =oxygene i]:before {
-    content: "Oxygene"
-}
+                             content: "Oxygene"
+                         }
 
 .hljs[class ~ =parser3 i]:before {
-    content: "Parser3"
-}
+                             content: "Parser3"
+                         }
 
 .hljs[class ~ =lpr i]:before,
-.hljs[class ~ =lfm i]:before,
-.hljs[class ~ =lazarus i]:before,
-.hljs[class ~ =freepascal i]:before,
-.hljs[class ~ =pas i]:before,
-.hljs[class ~ =pascal i]:before {
-    content: "Pascal/Object Pascal"
-}
+                     .hljs[class ~ =lfm i]:before,
+                                          .hljs[class ~ =lazarus i]:before,
+                                                                   .hljs[class ~ =freepascal i]:before,
+                                                                                               .hljs[class ~ =pas i]:before,
+                                                                                                                    .hljs[class ~ =pascal i]:before {
+                                                                                                                                                content: "Pascal/Object Pascal"
+                                                                                                                                            }
 
 .hljs[class ~ =pm i]:before,
-.hljs[class ~ =pl i]:before,
-.hljs[class ~ =perl i]:before {
-    content: "Perl"
-}
+                    .hljs[class ~ =pl i]:before,
+                                        .hljs[class ~ =perl i]:before {
+                                                                  content: "Perl"
+                                                              }
 
 .hljs[class ~ =pf i]:before {
-    content: "OpenBSD PF"
-}
+                        content: "OpenBSD PF"
+                    }
 
 .hljs[class ~ =php6 i]:before,
-.hljs[class ~ =php5 i]:before,
-.hljs[class ~ =php4 i]:before,
-.hljs[class ~ =php3 i]:before,
-.hljs[class ~ =php i]:before {
-    content: "PHP"
-}
+                      .hljs[class ~ =php5 i]:before,
+                                            .hljs[class ~ =php4 i]:before,
+                                                                  .hljs[class ~ =php3 i]:before,
+                                                                                        .hljs[class ~ =php i]:before {
+                                                                                                                 content: "PHP"
+                                                                                                             }
 
 .hljs[class ~ =pony i]:before {
-    content: "Pony"
-}
+                          content: "Pony"
+                      }
 
 .hljs[class ~ =ps i]:before,
-.hljs[class ~ =powershell i]:before {
-    content: "PowerShell"
-}
+                    .hljs[class ~ =powershell i]:before {
+                                                    content: "PowerShell"
+                                                }
 
 .hljs[class ~ =processing i]:before {
-    content: "Processing"
-}
+                                content: "Processing"
+                            }
 
 .hljs[class ~ =prolog i]:before {
-    content: "Prolog"
-}
+                            content: "Prolog"
+                        }
 
 .hljs[class ~ =plist i]:before {
-    content: "Property List"
-}
+                           content: "Property List"
+                       }
 
 .hljs[class ~ =protobuf i]:before {
-    content: "Protocol Buffers"
-}
+                              content: "Protocol Buffers"
+                          }
 
 .hljs[class ~ =pp i]:before,
-.hljs[class ~ =puppet i]:before {
-    content: "Puppet"
-}
+                    .hljs[class ~ =puppet i]:before {
+                                                content: "Puppet"
+                                            }
 
 .hljs[class ~ =pbi i]:before,
-.hljs[class ~ =pb i]:before,
-.hljs[class ~ =purebasic i]:before {
-    content: "PureBASIC"
-}
+                     .hljs[class ~ =pb i]:before,
+                                         .hljs[class ~ =purebasic i]:before {
+                                                                        content: "PureBASIC"
+                                                                    }
 
 .hljs[class ~ =gyp i]:before,
-.hljs[class ~ =py i]:before,
-.hljs[class ~ =python i]:before {
-    content: "Python"
-}
+                     .hljs[class ~ =py i]:before,
+                                         .hljs[class ~ =python i]:before {
+                                                                     content: "Python"
+                                                                 }
 
 .hljs[class ~ =profile i]:before {
-    content: "Python profile"
-}
+                             content: "Python profile"
+                         }
 
 .hljs[class ~ =kdb i]:before,
-.hljs[class ~ =k i]:before,
-.hljs[class ~ =q i]:before {
-    content: "Q"
-}
+                     .hljs[class ~ =k i]:before,
+                                        .hljs[class ~ =q i]:before {
+                                                               content: "Q"
+                                                           }
 
 .hljs[class ~ =qt i]:before,
-.hljs[class ~ =qml i]:before {
-    content: "QML"
-}
+                    .hljs[class ~ =qml i]:before {
+                                             content: "QML"
+                                         }
 
 .hljs[class ~ =r i]:before {
-    content: "R"
-}
+                       content: "R"
+                   }
 
 .hljs[class ~ =rib i]:before {
-    content: "RenderMan RIB"
-}
+                         content: "RenderMan RIB"
+                     }
 
 .hljs[class ~ =rsl i]:before {
-    content: "RenderMan RSL"
-}
+                         content: "RenderMan RSL"
+                     }
 
 .hljs[class ~ =instances i]:before,
-.hljs[class ~ =graph i]:before,
-.hljs[class ~ =roboconf i]:before {
-    content: "Roboconf"
-}
+                           .hljs[class ~ =graph i]:before,
+                                                  .hljs[class ~ =roboconf i]:before {
+                                                                                content: "Roboconf"
+                                                                            }
 
 .hljs[class ~ =rss i]:before {
-    content: "RSS Feed (XML)"
-}
+                         content: "RSS Feed (XML)"
+                     }
 
 .hljs[class ~ =rb i]:before,
-.hljs[class ~ =ruby i]:before {
-    content: "Ruby"
-}
+                    .hljs[class ~ =ruby i]:before {
+                                              content: "Ruby"
+                                          }
 
 .hljs[class ~ =thor i]:before {
-    content: "Thor (Ruby)"
-}
+                          content: "Thor (Ruby)"
+                      }
 
 .hljs[class ~ =gemspec i]:before {
-    content: "Ruby Gem"
-}
+                             content: "Ruby Gem"
+                         }
 
 .hljs[class ~ =rs i]:before,
-.hljs[class ~ =rust i]:before {
-    content: "Rust"
-}
+                    .hljs[class ~ =rust i]:before {
+                                              content: "Rust"
+                                          }
 
 .hljs[class ~ =scala i]:before {
-    content: "Scala"
-}
+                           content: "Scala"
+                       }
 
 .hljs[class ~ =scheme i]:before {
-    content: "Scheme"
-}
+                            content: "Scheme"
+                        }
 
 .hljs[class ~ =sci i]:before,
-.hljs[class ~ =scilab i]:before {
-    content: "Scilab"
-}
+                     .hljs[class ~ =scilab i]:before {
+                                                 content: "Scilab"
+                                             }
 
 .hljs[class ~ =scss i]:before {
-    content: "SCSS"
-}
+                          content: "SCSS"
+                      }
 
 .hljs[class ~ =console i]:before,
-.hljs[class ~ =shell i]:before {
-    content: "Shell"
-}
+                         .hljs[class ~ =shell i]:before {
+                                                    content: "Shell"
+                                                }
 
 .hljs[class ~ =smali i]:before {
-    content: "Smali"
-}
+                           content: "Smali"
+                       }
 
 .hljs[class ~ =st i]:before,
-.hljs[class ~ =smalltalk i]:before {
-    content: "Smalltalk"
-}
+                    .hljs[class ~ =smalltalk i]:before {
+                                                   content: "Smalltalk"
+                                               }
 
 .hljs[class ~ =ml i]:before,
-.hljs[class ~ =sml i]:before {
-    content: "SML"
-}
+                    .hljs[class ~ =sml i]:before {
+                                             content: "SML"
+                                         }
 
 .hljs[class ~ =sqf i]:before {
-    content: "SQF"
-}
+                         content: "SQF"
+                     }
 
 .hljs[class ~ =sql i]:before {
-    content: "SQL"
-}
+                         content: "SQL"
+                     }
 
 .hljs[class ~ =stan i]:before {
-    content: "Stan"
-}
+                          content: "Stan"
+                      }
 
 .hljs[class ~ =ado i]:before,
-.hljs[class ~ =do i]:before,
-.hljs[class ~ =stata i]:before {
-    content: "Stata"
-}
+                     .hljs[class ~ =do i]:before,
+                                         .hljs[class ~ =stata i]:before {
+                                                                    content: "Stata"
+                                                                }
 
 .hljs[class ~ =p21 i]:before,
-.hljs[class ~ =stp i]:before,
-.hljs[class ~ =step i]:before,
-.hljs[class ~ =step21 i]:before {
-    content: "STEP Part 21"
-}
+                     .hljs[class ~ =stp i]:before,
+                                          .hljs[class ~ =step i]:before,
+                                                                .hljs[class ~ =step21 i]:before {
+                                                                                            content: "STEP Part 21"
+                                                                                        }
 
 .hljs[class ~ =styl i]:before,
-.hljs[class ~ =stylus i]:before {
-    content: "Stylus"
-}
+                      .hljs[class ~ =stylus i]:before {
+                                                  content: "Stylus"
+                                              }
 
 .hljs[class ~ =subunit i]:before {
-    content: "SubUnit"
-}
+                             content: "SubUnit"
+                         }
 
 .hljs[class ~ =swift i]:before {
-    content: "Swift"
-}
+                           content: "Swift"
+                       }
 
 .hljs[class ~ =taggerscript i]:before {
-    content: "Tagger Script"
-}
+                                  content: "Tagger Script"
+                              }
 
 .hljs[class ~ =tap i]:before {
-    content: "TAP"
-}
+                         content: "TAP"
+                     }
 
 .hljs[class ~ =tk i]:before,
-.hljs[class ~ =tcl i]:before {
-    content: "Tcl"
-}
+                    .hljs[class ~ =tcl i]:before {
+                                             content: "Tcl"
+                                         }
 
 .hljs[class ~ =tex i]:before {
-    content: "TeX"
-}
+                         content: "TeX"
+                     }
 
 .hljs[class ~ =thrift i]:before {
-    content: "Thrift"
-}
+                            content: "Thrift"
+                        }
 
 .hljs[class ~ =toml i]:before {
-    content: "TOML"
-}
+                          content: "TOML"
+                      }
 
 .hljs[class ~ =tp i]:before {
-    content: "TP"
-}
+                        content: "TP"
+                    }
 
 .hljs[class ~ =craftcms i]:before,
-.hljs[class ~ =twig i]:before {
-    content: "Twig"
-}
+                          .hljs[class ~ =twig i]:before {
+                                                    content: "Twig"
+                                                }
 
 .hljs[class ~ =ts i]:before,
-.hljs[class ~ =typescript i]:before {
-    content: "TypeScript"
-}
+                    .hljs[class ~ =typescript i]:before {
+                                                    content: "TypeScript"
+                                                }
 
 .hljs[class ~ =vala i]:before {
-    content: "Vala"
-}
+                          content: "Vala"
+                      }
 
 .hljs[class ~ =vb i]:before,
-.hljs[class ~ =vbnet i]:before {
-    content: "VB.NET"
-}
+                    .hljs[class ~ =vbnet i]:before {
+                                               content: "VB.NET"
+                                           }
 
 .hljs[class ~ =vbs i]:before,
-.hljs[class ~ =vbscript i]:before {
-    content: "VBScript"
-}
+                     .hljs[class ~ =vbscript i]:before {
+                                                   content: "VBScript"
+                                               }
 
 .hljs[class ~ =vbscript-html i]:before {
-    content: "VBScript HTML"
-}
+                                   content: "VBScript HTML"
+                               }
 
 .hljs[class ~ =svh i]:before,
-.hljs[class ~ =sv i]:before,
-.hljs[class ~ =v i]:before,
-.hljs[class ~ =verilog i]:before {
-    content: "Verilog"
-}
+                     .hljs[class ~ =sv i]:before,
+                                         .hljs[class ~ =v i]:before,
+                                                            .hljs[class ~ =verilog i]:before {
+                                                                                         content: "Verilog"
+                                                                                     }
 
 .hljs[class ~ =vhdl i]:before {
-    content: "VHDL"
-}
+                          content: "VHDL"
+                      }
 
 .hljs[class ~ =vim i]:before {
-    content: "Vim Script"
-}
+                         content: "Vim Script"
+                     }
 
 .hljs[class ~ =x86asm i]:before {
-    content: "x86 Assembly"
-}
+                            content: "x86 Assembly"
+                        }
 
 .hljs[class ~ =tao i]:before,
-.hljs[class ~ =xl i]:before {
-    content: "XL"
-}
+                     .hljs[class ~ =xl i]:before {
+                                             content: "XL"
+                                         }
 
 .hljs[class ~ =xpath i]:before,
-.hljs[class ~ =xq i]:before,
-.hljs[class ~ =xquery i]:before {
-    content: "XQuery"
-}
+                       .hljs[class ~ =xq i]:before,
+                                           .hljs[class ~ =xquery i]:before {
+                                                                       content: "XQuery"
+                                                                   }
 
 .hljs[class ~ =yml i]:before,
-.hljs[class ~ =yaml i]:before {
-    content: "YAML"
-}
+                     .hljs[class ~ =yaml i]:before {
+                                               content: "YAML"
+                                           }
 
 .hljs[class ~ =xhtml i]:before {
-    content: "XHTML"
-}
+                           content: "XHTML"
+                       }
 
 .hljs[class ~ =xml i]:before {
-    content: "XML"
-}
+                         content: "XML"
+                     }
 
 .hljs[class ~ =xsd i]:before {
-    content: "XML Schema"
-}
+                         content: "XML Schema"
+                     }
 
 .hljs[class ~ =xsl i]:before {
-    content: "XSL"
-}
+                         content: "XSL"
+                     }
 
 .hljs[class ~ =zep i]:before,
-.hljs[class ~ =zephir i]:before {
-    content: "Zephir"
-}
+                     .hljs[class ~ =zephir i]:before {
+                                                 content: "Zephir"
+                                             }
 
 .embed-hKpSrO .embedFieldName-9LYSyR,
 .embed-hKpSrO .embedTitle-2n1pEb {

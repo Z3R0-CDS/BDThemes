@@ -1,0 +1,24 @@
+/**
+* @name Zero Industries Clear
+* @version 1.1
+* @description Clear-vision. Single url theme or use up to 3 different images.  Default no specific image (light size).
+* @author Zero Industries
+* @Source https://github.com/Z3R0-CDS/BDThemes
+* @website https://zer0-industries.com
+* @updateUrl https://zer0-industries.com/static/bdthemes/ClearLight.theme.css
+*/
+
+@import url("https://zer0-industries.com/static/bdthemes/src/clear_light_base.css?v=1.0");
+
+:root {
+    --wallpaper: url('https://zer0-industries.com/static/bdthemes/assets/images/redlove.jpg');/* <- Edit wallpaper here*/
+    --main-color: #fa002e;
+
+    /*Additional Images*/
+    --profile-view-popout--wallpaper: var(--wallpaper);
+    --profile-view-big--wallpaper: var(--wallpaper);
+
+
+    /*Additional Colors*/
+    --url-color: var(--main-color)
+}

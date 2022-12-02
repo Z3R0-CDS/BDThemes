@@ -1,9 +1,37 @@
 # BDThemes
 Themes by ZeroCodes#1252
-Original Template by DevilBro but no shitty Watermark
 
-<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/space.theme.css">Space Theme 2.1</a><br>
-<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/MTN.theme.css">Mountain Theme 2.2</a><br>
-<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/Speicherstadt.theme.css">Speicherstadt Theme 2.3</a><br>
-<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/noname.theme.css">No Name/kimi no na wa Theme 1.1</a><br>
-<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/noname.theme.css">Zero Industries Eclipse 1.0 to match the best sb on the top rank</a><br>
+## Project changes
+
+    "Custom" themes with different background images etc will be in sepearate folder.
+    Default themes will be in the Theme folder. 
+    Default themes will include the chagelog for the specific theme. 
+        This will decrease the work on an update.
+
+### Clear Vision / Zero Vision
+ClearVision themes. Removed watermarks. Removed some unused data. Easy use made possible.
+
+    How to...
+        Update:
+            If the base theme changes go to settings>themes
+            Click on the pen to edit
+            Change the ?v for the first import to the new version
+                Example:
+                @import url("https://zer0-industries.com/static/bdthemes/src/clear_light_base.css?v=1.0");
+                                                                                                      ^
+                to @import url("https://zer0-industries.com/static/bdthemes/src/clear_light_base.css?v=1.1");
+                                                                                                        ^
+            If the theme changes redownload and move to folder
+
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/ClearLight.theme.css">DefaultClear with changelog 1.1</a>
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/ClearLight/RedLoveClear.theme.css">RedLove Clear 1.1</a>
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/ClearLight/EclipseClearVision.theme.css">Eclipse Clear 1.1</a>
+
+### Original Template by DevilBro but no shitty Watermark
+All thes themes will be overworked and improved soon. For now look at them as outdated although they work
+
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/DevilNo/space.theme.css">Space Theme 2.1</a><br>
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/DevilNo/MTN.theme.css">Mountain Theme 1.2</a><br>
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/DevilNo/Speicherstadt.theme.css">Speicherstadt Theme 2.3</a><br>
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/DevilNo/noname.theme.css">No Name/kimi no na wa Theme 1.1</a><br>
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/DevilNo/noname.theme.css">Zero Industries Eclipse 1.0 to match the best sb on the top rank</a><br>

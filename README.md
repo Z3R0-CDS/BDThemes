@@ -2,6 +2,7 @@
 Themes by ZeroCodes#1252
 
 ## Project changes
+    Change date: 02.12 2022
 
     "Custom" themes with different background images etc will be in sepearate folder.
     Default themes will be in the Theme folder. 

@@ -24,8 +24,8 @@ ClearVision themes. Removed watermarks. Removed some unused data. Easy use made 
                                                                                                         ^
             If the theme changes redownload and move to folder
 
-<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/ClearLight.theme.css">DefaultClear with changelog 1.1</a><br>
-<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/ClearLight/RedLoveClear.theme.css">RedLove Clear 1.1</a><br>
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/ClearLight.theme.css">DefaultClear with changelog 1.3</a><br>
+<a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/ClearLight/RedLoveClear.theme.css">RedLove Clear 1.2</a><br>
 <a href="https://raw.githubusercontent.com/Z3R0-CDS/BDThemes/main/themes/ClearLight/EclipseClearVision.theme.css">Eclipse Clear 1.1</a><br>
 
 ### Original Template by DevilBro but no shitty Watermark

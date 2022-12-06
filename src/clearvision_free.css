@@ -1,5 +1,5 @@
 ﻿/*
-    Version: 1.4
+    Version: 1.5
  */
 
 :root {
@@ -7,17 +7,15 @@
     --hover-color: #1e63b3;
     --success-color: #43b581;
     --danger-color: #982929;
-    --channel-unread: var(--main-color);
     --channel-color: rgba(229, 226, 226, 0.66);
     --muted-color: rgba(255, 255, 255, 0.3);
     --channel-text-selected: #fff;
-    --url-color: var(--main-color);
     --online-color: #43b581;
     --idle-color: #faa61a;
     --dnd-color: #982929;
     --offline-color: #808080;
     --streaming-color: #593695;
-    --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --main-font: Gill Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace;
     --font-display: var(--main-font);
     --text-normal: rgb(220, 221, 222);
@@ -1977,6 +1975,8 @@ textarea,
     background: rgba(0, 0, 0, .6);
     transition: all .15s ease-in-out
 }
+
+/*BORDER COLOR*/
 
 .channelTextArea-1VQBuV:focus-within {
     box-shadow: 0 0 2px 2px var(--main-color)
